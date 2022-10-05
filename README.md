@@ -2,6 +2,10 @@
 
 This repo shows how to set up a private endpoint for Azure Storage and check it using Azure Bastion.
 
+![Private Endpoint](images/private-endpoint.png)![Azure Bastion](images/bastion.png)
+
+Azure Bastion is useful in PCI-DSS scenarios when you do not want your developer's machines to become a 'connected system.'
+
 ## Setup
 
 1. Clone/Fork this repo
