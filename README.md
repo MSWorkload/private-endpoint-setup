@@ -17,4 +17,8 @@ This repo shows how to set up a private endpoint for Azure Storage and check it 
 > nslookup {storage}.blob.core.windows.net
 ```
 
-then you should see an ip address in the subnet range.
+Then you should see an IP address in the subnet range.
+
+## Actions
+
+[![Create Infrastructure](https://github.com/fredrkl/private-endpoint-setup/actions/workflows/create-infra.yml/badge.svg)](https://github.com/fredrkl/private-endpoint-setup/actions/workflows/create-infra.yml)
