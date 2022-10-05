@@ -252,8 +252,3 @@ resource vm 'Microsoft.Compute/virtualMachines@2021-11-01' = {
     }
   }
 }
-
-
-
-output storageEndpoint object = stg.properties.primaryEndpoints
-output storageEndpointBlob string = stg.properties.primaryEndpoints.blob
