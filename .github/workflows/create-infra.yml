@@ -5,7 +5,7 @@ on:
   push:
 
 env:
-  RESOURCE_GROUP: PrivateEndpoint-Demo
+  RESOURCE_GROUP: rg-pvtendpoint-bastion
 
 concurrency: creating
 
